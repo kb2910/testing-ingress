@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  background-color: var(--navbar-background);
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.navbar-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.theme-switcher {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}

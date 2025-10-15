@@ -1,0 +1,39 @@
+.song-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.song-form form div {
+  margin-bottom: 1rem;
+}
+
+.song-form input {
+  padding: 8px;
+  border: 1px solid #4c98b6;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.song-form button {
+  padding: 10px;
+  background-color: #045e61;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.song-form button:hover {
+  background-color: #088096;
+}
+
+.song-form label {
+    display: block;
+    margin-bottom: 5px;
+}
